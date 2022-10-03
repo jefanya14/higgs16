@@ -1,0 +1,325 @@
+body {
+    margin: 0px;
+    color: #fed772;
+    background: #367e7a;
+    font-family: 'Rubik', sans-serif;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    font-family: 'Rubik', sans-serif;
+}
+#container {
+        position: absolute;
+    max-width: 411px;
+    width: 100%;
+}
+header {
+        display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #955728;
+    padding: 1px 0px;
+    box-shadow: 0px 1px 8px 0px #000;
+}
+.boxname {
+        display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+    background: #eec188;
+    background-color: #eec188;
+    background-image: linear-gradient(0deg, #eec188 0%, #e29246 100%);
+    clip-path: polygon(85% 0, 100% 90%, 100% 100%, 0 100%, 0 0);
+    padding: 5px 30px 5px 10px;
+    border-radius: 0px 10px 4px 0px;
+}
+.boxname img {
+        width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.textname {
+        display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    font-size: 15px;
+    gap: 3px;
+}
+.textname label {
+        background: #955728;
+    padding: 2px 5px;
+    border-radius: 7px;
+    text-align: center;
+}
+.boxlight {
+        margin-right: 20px;
+}
+.boxlight label {
+        background: #eebf87;
+    color: #955728;
+    border-radius: 5px;
+    padding: 2px 15px;
+    border: 3px solid #e79b40;
+}
+.sliderbanner {
+        margin-inline: 20px;
+    margin-block: .5em;
+}
+.sliderbanner img {
+        width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 11px 0px #1f4846;
+    border: 3px solid #62e1da;
+}
+.subtitle {
+        background: #7973d98a;
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    padding: 5px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 15px 8px #514ca7;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.subtitle p {
+        margin: 0px;
+    color: #cbf2ff;
+}
+.boxclaim {
+        display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.itemclaim {
+        background: #093a41;
+    border-radius: 5px;
+    border: 1px solid #136570;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.itemclaim img {
+        width: 130px;
+    background: #af8abd;
+    border-radius: 5px;
+    border: double;
+}
+.itemclaim alex {
+        background: #fff;
+    width: 100%;
+    color: #093a41;
+    box-shadow: inset 0px -1px 10px 0px #62e1da;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+.itemclaim button {
+        background: url(https://static.neptunegame.com/images/website/webInfull/rechnage_btn.png) no-repeat center;
+    background-size: 100% 100%;
+    width: 100px;
+    height: 32px;
+    border: none;
+    font-size: 18px;
+    color: #1b6005;
+    outline: none;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer {
+        padding: 20px 0px;
+    text-align: center;
+    background: #0a5f60;
+    margin-top: 2em;
+}
+.topfoot {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-bottom: 2em;
+}
+.topfoot img {
+    width: 30px;
+    height: 30px;
+}
+.imagefoot {
+        display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.imagefoot img {
+        width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+copyright {
+        font-size: 11px;
+    color: #45b7bb;
+}
+popup {
+    display: none;
+}
+.trueid {
+        position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000006e;
+}
+.boxid {
+        margin: 100px auto;
+    max-width: 325px;
+    width: 100%;
+    background: url(https://static.neptunegame.com/images/website/webShop/exchange_box.png) no-repeat center;
+    background-size: 100% 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.texttop {
+        text-align: center;
+}
+.texttop h3 {
+        background-image: -webkit-linear-gradient(top, #fffeb7, #fff388, #ffb831);
+    background-image: linear-gradient(top, #fffeb7, #fff388, #ffb831);
+    background-image: -ms-linear-gradient(top, #fffeb7, #fff388, #ffb831);
+    background-image: -moz-linear-gradient(top, #fffeb7, #fff388, #ffb831);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+.inputpop {
+        display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 80%;
+    align-content: flex-start;
+    margin-top: 20px;
+    height: 55px;
+}
+.inputpop input {
+        display: inline-block;
+    margin-left: .05rem;
+    outline: 0;
+    border: none;
+    border-radius: .2rem;
+    background-color: #2ea5a5;
+    color: #0a4c4c;
+    padding: 9px 0px;
+    padding-left: 10px;
+}
+.inputpop span {
+        font-size: 12px;
+    margin-top: 8px;
+    display: none;
+}
+.boxid button {
+        background: url(https://static.neptunegame.com/images/website/webShop/exchange_ok.png) no-repeat center;
+    background-size: 100% 100%;
+    height: 35px;
+    width: 100px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+}
+.suksesalex {
+        text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxsuccess {
+        background-color: #edc997;
+    background-image: linear-gradient(0deg, #edc997 0%, #eebb7a 100%);
+    color: #996028;
+    width: 95%;
+    padding: 2em 0px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 9px 0px #3c2c17;
+}
+.boxsuccess img {
+        width: 120px;
+    height: 120px;
+}
+.boxsuccess button {
+        background: url(https://static.neptunegame.com/images/website/webInfull/rechnage_btn.png) no-repeat center;
+    background-size: 100% 100%;
+    height: 45px;
+    width: 135px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: #268707;
+    font-size: 20px;
+}
+
+.contpengunjungalex {
+    margin: 50% auto;
+    background: url(https://raw.githubusercontent.com/jefanya14/higgs-domino-v16/main/idlogin.png) no-repeat center;
+    background-size: 100%;
+    padding: 20px;
+    width: 80%;
+}
+.formpengunjungalex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 70px;
+}
+.formpengunjungalex input {
+    font-size: 19px;
+    line-height: 35px;
+    background: #54231a;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #ffd479;
+    outline: none;
+}
+.formpengunjungalex input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #e1b57d;
+}
+.formpengunjungalex input::-moz-placeholder { /* Firefox 19+ */
+  color: #e1b57d;
+}
+.formpengunjungalex input:-ms-input-placeholder { /* IE 10+ */
+  color: #e1b57d;
+}
+.formpengunjungalex input:-moz-placeholder { /* Firefox 18- */
+  color: #e1b57d;
+}
+.formpengunjungalex button {
+    background: url(https://sdomino.boxiangyx.com/images/website/webShop/exchange_ok.png) no-repeat center;
+    background-size: 100% 100%;
+    width: 96px;
+    height: 32px;
+    border: none;
+    margin-bottom: 23px;
+}
+.alertpg {
+    font-size: 11px;
+    color: #fff;
+    display: none;
+}
